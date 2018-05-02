@@ -11,7 +11,7 @@ def author_name
     @author.name
   else
     nil
-  end 
+  end
 end 
 
 end
