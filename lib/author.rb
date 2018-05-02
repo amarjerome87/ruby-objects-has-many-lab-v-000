@@ -4,7 +4,7 @@ attr_accessor :author, :name
 
 
 def initialize(name)
-  @name  = name 
+  @name  = name
   @posts = []
 end
 
@@ -25,5 +25,8 @@ def add_post_by_title(name)
   post.author = self
   add_post(post)
 end
+
+def self.post_count
+end 
 
 end
