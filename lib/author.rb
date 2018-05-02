@@ -4,7 +4,7 @@ attr_accessor :author, :name
 
 
 def initialize(name)
-  @name  = title
+  @name  = name 
   @posts = []
 end
 
