@@ -29,6 +29,7 @@ def add_post_by_title(name)
 end
 
 def self.post_count
+  @@post_count
 end
 
 end
